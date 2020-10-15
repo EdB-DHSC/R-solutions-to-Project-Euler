@@ -343,3 +343,5 @@ The reason for the very large difference is down to the way R works. R is an int
 Here, we've used vectorisation to test the factors of the number in Method B, which is fast, whereas testing for palindromes in Method A was done using a custom function. This custom function becomes extremely slow when repeated ~1000 000 times.
 
 If you are having trouble with code taking a long time to run in R, try to replace custom functions and loops with in-built functions and vectorisation where possible. As this example shows, this can make a much larger difference than trying to work out which approach is theoretically better.
+
+test
